@@ -14,23 +14,11 @@
 div.character-list {
     /* ejemplo de uso de variables con css */
     background-color: var(--character-list-color);
+    
+
 }
 
-div.item1{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 500px;
+.character{
     background-color: #3B3E43;
-    width: 600px;
-    height: 370px;
 }
 
-div.item2s{
-    display: grid;
-        max-width: 500px;
-        background-color: #3B3E43;
-        width: 600px;
-        height: 370px;
-}
