@@ -42,7 +42,9 @@
 class RickAndMortyService {
     // el constructor debe inicializar una variable con la url de acceso base al API
 
-	constructor() {}
+	constructor() {
+        const URL = "https://rickandmortyapi.com/api/character";
+    }
 
     
     // este método deberá llamar al servicio y obtener los personajes

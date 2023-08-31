@@ -12,6 +12,8 @@ import RickAndMortyService from './service';
 // valor (1 punto)
 
 function createCharacterList() {
+    createCharacterCard()
+    addCharacterListeners()
     // llamar primero createCharacterCard(character);
     // llamar segundo addCharacterListeners(character);
 }
